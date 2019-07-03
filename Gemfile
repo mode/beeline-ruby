@@ -11,10 +11,8 @@ def local_gem(gem_name, dir: gem_name, **opts)
 end
 
 group :development do
-  local_gem 'activerecord-honeycomb'
   local_gem 'rack-honeycomb'
   local_gem 'faraday-honeycomb'
-  local_gem 'sequel-honeycomb'
   local_gem 'libhoney', dir: 'libhoney-rb'
 
   gem 'pry-byebug'
